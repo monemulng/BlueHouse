@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+
+    <TextView
+        android:id="@+id/txtIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\@"
+        android:textSize="80sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtDeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Dispositivo"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtIcon"
+        android:layout_toEndOf="@+id/txtIcon"
+        android:textColor="#84b326" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereco"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtDeviceName"
+        android:layout_toRightOf="@+id/txtIcon"
+        android:layout_toEndOf="@+id/txtIcon" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações"
+        android:textSize="25sp"
+        android:layout_below="@+id/txtAddress"
+        android:layout_toRightOf="@+id/txtIcon"
+        android:layout_toEndOf="@+id/txtIcon" />
+
+
+</RelativeLayout>

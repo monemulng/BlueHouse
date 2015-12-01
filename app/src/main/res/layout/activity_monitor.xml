@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+    tools:context="ifg.tcc.bluehouse.MonitorActivity">
+
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ligar luz"
+        android:id="@+id/swtLuz1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#616161"
+        android:textSize="@dimen/abc_dialog_padding_top_material"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Umidade: "
+        android:id="@+id/txtUmid"
+        android:visibility="gone"
+        android:textColor="#3d70ab" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Temperatura: "
+        android:id="@+id/txtTemp"
+        android:visibility="gone"
+        android:textColor="#c75252" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retornar"
+        android:id="@+id/btnVoltar" />
+
+
+</LinearLayout>
